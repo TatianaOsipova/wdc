@@ -758,3 +758,24 @@ body {
 }
 
 /* earrings325 slider end */
+
+.footer {
+    padding: 40px;
+    height: 100%;
+    background-image: url(../img/bg_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid white;
+}
+
+.footer_text {
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 100;
+    margin-left: 750px;
+    color: white;
+
+}
+
+/* finish footer */

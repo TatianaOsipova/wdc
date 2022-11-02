@@ -19,7 +19,6 @@ body {
 }
 
 /* MAIN PAGE */
-
 /* start header */
 
 .wrapper {
@@ -784,7 +783,6 @@ body {
 
 
 /* VIDEOS PAGE */
-
 /* start header */
 
 .page-header {
@@ -848,7 +846,6 @@ body {
 /* end footer */
 
 /* CONTACT PAGE */
-
 /* start main */
 
 .contact {
@@ -925,7 +922,7 @@ body {
 
 .contact_form-btn:active {
     transition: 0s;
-    background-color: rgb(8, 116, 110);
+    background-color: rgb(50, 118, 115);
 }
 
 /* end main */

@@ -18,6 +18,8 @@ body {
     background-color: black;
 }
 
+/* MAIN PAGE */
+
 /* start header */
 
 .wrapper {
@@ -781,17 +783,18 @@ body {
 /* finish footer */
 
 
-
-
+/* VIDEOS PAGE */
 
 /* start header */
 
-.wrapper {
+
+
+/* .wrapper {
     max-width: 1160px;
     margin: 0 auto;
 }
 
-.page-header {
+.header {
     position: sticky;
     top: 0;
     left: 0;
@@ -837,9 +840,10 @@ body {
 .header_link:active {
     opacity: 0.75;
     color: silver;
-}
+} */
 
-/* end header */
+
+
 
 /* start videos*/
 
@@ -888,7 +892,7 @@ body {
     border-top: 1px solid white;
 }
 
-.footer_text {
+.page-footer_text {
     font-size: 25px;
     line-height: 50px;
     font-weight: 100;

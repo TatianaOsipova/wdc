@@ -106,3 +106,655 @@ body {
 }
 
 /* end main */
+
+/* start jewelry */
+
+.jewelry {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+/* ring112 slider start */
+
+.ring112 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+}
+
+.slider {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+    display: none;
+}
+
+.switch {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#btn1:checked~.switch label[for="btn2"] {
+    background-color: white;
+}
+
+#btn1:checked~.switch label[for="btn3"] {
+    background-color: white;
+}
+
+.slider_inner {
+    overflow: hidden;
+}
+
+.slides {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#btn1:checked~.slider_inner .slides {
+    transform: translate(0);
+}
+
+#btn2:checked~.slider_inner .slides {
+    transform: translate(-500px);
+}
+
+#btn3:checked~.slider_inner .slides {
+    transform: translate(-1000px);
+}
+
+/* ring112 slider end */
+
+/* jewelry info start */
+
+.right {
+    padding-left: 50px;
+    padding-top: 150px;
+    border-right: 1px solid white;
+}
+
+.left {
+    padding-left: 50px;
+    padding-top: 150px;
+    border-left: 1px solid white;
+}
+
+.jewelry_title {
+    font-family: 'Playfair';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.jewelry_descr {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+}
+
+/* jewelry info end */
+
+/* ring309 slider start */
+
+.ring309 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 100px;
+}
+
+.slider309 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider309 input[name="switch309"] {
+    display: none;
+}
+
+.switch309 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch309 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#btn-1:checked~.switch309 label[for="btn-2"] {
+    background-color: white;
+}
+
+#btn-1:checked~.switch309 label[for="btn-3"] {
+    background-color: white;
+}
+
+.slider_inner309 {
+    overflow: hidden;
+}
+
+.slides309 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides309 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#btn-1:checked~.slider_inner309 .slides309 {
+    transform: translate(0);
+}
+
+#btn-2:checked~.slider_inner309 .slides309 {
+    transform: translate(-500px);
+}
+
+#btn-3:checked~.slider_inner309 .slides309 {
+    transform: translate(-1000px);
+}
+
+/* ring309 slider end */
+
+/* ring551 slider start */
+
+.ring551 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    border-top: 1px solid white;
+}
+
+.slider551 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider551 input[name="switch551"] {
+    display: none;
+}
+
+.switch551 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch551 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#btn_1:checked~.switch551 label[for="btn_2"] {
+    background-color: white;
+}
+
+#btn_1:checked~.switch551 label[for="btn_3"] {
+    background-color: white;
+}
+
+.slider_inner551 {
+    overflow: hidden;
+}
+
+.slides551 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides551 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#btn_1:checked~.slider_inner551 .slides551 {
+    transform: translate(0);
+}
+
+#btn_2:checked~.slider_inner551 .slides551 {
+    transform: translate(-500px);
+}
+
+#btn_3:checked~.slider_inner551 .slides551 {
+    transform: translate(-1000px);
+}
+
+/* ring551 slider end */
+
+/* ring643 slider start */
+
+.ring643 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 100px;
+}
+
+.slider643 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider643 input[name="switch643"] {
+    display: none;
+}
+
+.switch643 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch643 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#button1:checked~.switch643 label[for="button2"] {
+    background-color: white;
+}
+
+#button1:checked~.switch643 label[for="button3"] {
+    background-color: white;
+}
+
+.slider_inner643 {
+    overflow: hidden;
+}
+
+.slides643 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides643 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#button1:checked~.slider_inner643 .slides643 {
+    transform: translate(0);
+}
+
+#button2:checked~.slider_inner643 .slides643 {
+    transform: translate(-500px);
+}
+
+#button3:checked~.slider_inner643 .slides643 {
+    transform: translate(-1000px);
+}
+
+/* ring643 slider end */
+
+/* ring326 slider start */
+
+.ring326 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    border-top: 1px solid white;
+}
+
+.slider326 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider326 input[name="switch326"] {
+    display: none;
+}
+
+.switch326 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch326 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#button_1:checked~.switch326 label[for="button_2"] {
+    background-color: white;
+}
+
+#button_1:checked~.switch326 label[for="button_3"] {
+    background-color: white;
+}
+
+.slider_inner326 {
+    overflow: hidden;
+}
+
+.slides326 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides326 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#button_1:checked~.slider_inner326 .slides326 {
+    transform: translate(0);
+}
+
+#button_2:checked~.slider_inner326 .slides326 {
+    transform: translate(-500px);
+}
+
+#button_3:checked~.slider_inner326 .slides326 {
+    transform: translate(-1000px);
+}
+
+/* ring326 slider end */
+
+/* ring611 slider start */
+
+.ring611 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 100px;
+}
+
+.slider611 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider611 input[name="switch611"] {
+    display: none;
+}
+
+.switch611 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch611 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn1:checked~.switch611 label[for="bttn2"] {
+    background-color: white;
+}
+
+#bttn1:checked~.switch611 label[for="bttn3"] {
+    background-color: white;
+}
+
+.slider_inner611 {
+    overflow: hidden;
+}
+
+.slides611 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides611 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn1:checked~.slider_inner611 .slides611 {
+    transform: translate(0);
+}
+
+#bttn2:checked~.slider_inner611 .slides611 {
+    transform: translate(-500px);
+}
+
+#bttn3:checked~.slider_inner611 .slides611 {
+    transform: translate(-1000px);
+}
+
+/* ring611 slider end */
+
+/* earrings323 slider start */
+
+.earrings323 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    border-top: 1px solid white;
+}
+
+.slider323 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider323 input[name="switch323"] {
+    display: none;
+}
+
+.switch323 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch323 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn_1:checked~.switch323 label[for="bttn_2"] {
+    background-color: white;
+}
+
+.slider_inner323 {
+    overflow: hidden;
+}
+
+.slides323 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides323 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn_1:checked~.slider_inner323 .slides323 {
+    transform: translate(0);
+}
+
+#bttn_2:checked~.slider_inner323 .slides323 {
+    transform: translate(-500px);
+}
+
+/* earrings323 slider end */
+
+/* earrings325 slider start */
+
+.earrings325 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+}
+
+.slider325 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider325 input[name="switch325"] {
+    display: none;
+}
+
+.switch325 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch325 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn-1:checked~.switch325 label[for="bttn-2"] {
+    background-color: white;
+}
+
+.slider_inner325 {
+    overflow: hidden;
+}
+
+.slides325 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides325 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn-1:checked~.slider_inner325 .slides325 {
+    transform: translate(0);
+}
+
+#bttn-2:checked~.slider_inner325 .slides325 {
+    transform: translate(-500px);
+}
+
+/* earrings325 slider end */

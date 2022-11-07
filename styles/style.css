@@ -1023,6 +1023,58 @@ body {
 
 }
 
+@media (max-width:560px){
+
+    .intro{
+        min-height: 50vh;
+    }
+    .intro_title{
+        font-size: 25px;
+        margin-left: 50px;    
+        transform: translateY(-30%);    
+    }
+    .intro_title-continue{
+        font-size: 25px;
+        padding-left: 165px;      
+        transform: translateY(-300%);      
+    }
+    .header_btn {
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        position: absolute;
+        right: 30px;
+        top: 46px;
+    }
+    .header_btn::after,
+    .header_btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #fff;
+    }
+    .header_btn::before {
+        top: 0;
+    }
+    .header_btn::after {
+        bottom: 0;
+    }
+    .header_btn span {
+        display: block;
+        height: 2px;
+        background-color: #fff;
+    }
+    
+
+
+
+}
+
 
 
 

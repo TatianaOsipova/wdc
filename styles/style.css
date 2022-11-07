@@ -987,6 +987,9 @@ body {
         font-size: 40px;
         margin-left: 60px;
         line-height: 20px;
+    }    
+    .left{
+        padding-left: 60px;
     }
     .jewelry {
         margin-bottom: 50px;
@@ -1177,7 +1180,8 @@ body {
     }
 
     .footer_text {             
-        margin-left: 550px;        
+        margin-left: 550px;  
+        line-height: 30px;      
     }
 }
 
@@ -1544,8 +1548,8 @@ body {
 @media (max-width:560px){
     .header_list{
         margin-right:30px;
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 18px;
+        font-weight: 200;
     }
     
     .intro{
@@ -1561,21 +1565,20 @@ body {
         padding-left: 165px;      
         transform: translateY(-300%);      
     }
-
     .jewelry {
         margin-bottom: 40px;
         margin-top: 40px;
     }    
-    .jewelry_title {   
-        padding-left: 76px;       
-    }    
-    .jewelry_descr {
-        padding-left: 76px;
-        font-size: 20px;
-        line-height: 30px;        
+    .right {
+        text-align: start;
+        padding-left: 50px;       
     }
     
-
+    .left {
+        text-align: end;
+        padding-right: 50px;
+        padding-bottom: 35px;       
+    }
 
     .ring112,
     .ring309,
@@ -1621,14 +1624,39 @@ body {
         margin-top: -82px;
     }
 
+    .footer_text {  
+        font-size: 16px;  
+        line-height: 25px;         
+        margin-left: 200px;        
+    }
+}
 
-
+@media (max-width: 475px){
+    .header_link {
+        font-size: 16px;        
+    }
 
     
-
-
+    .intro_title{
+        font-size: 24px;
+        margin-left: 30px;    
+        transform: translateY(-32%);    
+    }
+    .intro_title-continue{
+        font-size: 24px;
+        padding-left: 146px;      
+        transform: translateY(-328%);      
+    }
+    .footer_text {  
+        font-size: 14px;  
+        line-height: 25px;         
+        margin-left: 150px;        
+    }
 
 }
+
+
+
 
 
 

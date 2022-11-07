@@ -802,7 +802,7 @@ body {
 
 .videos{
     width: 100%;
-    background-color: black;
+    background-color: rgb(33, 33, 33);
     padding-top: 50px;   
 }
 
@@ -814,8 +814,8 @@ body {
     max-width: 1160px;
     margin: 0 auto;
     position: relative;
-    border: 1px solid white;
-    border-radius: 5px;
+    /* border: 1px solid white;
+    border-radius: 5px; */
 }
 
 .video_item {   
@@ -930,6 +930,31 @@ body {
 
 /* adaptive start */
 
+@media (max-width:1185px){
+    .header_logo-link{
+        margin-left: 80px;
+    }
+    .header_list{
+        margin-right: 80px;
+    }
+
+    .contact_title,
+    .contact_info,
+    .contact_form-input {
+        margin-left: 150px;        
+    }      
+    .contact_form-title{       
+        margin-left: 165px;
+    }    
+    .contact_form-btn {
+        margin-left: 193px;        
+    }
+    .footer_text {            
+        margin-left: 760px;        
+    }
+}
+
+
 @media (max-width:1160px){
     .header_logo-link{
         margin-left: 100px;
@@ -949,10 +974,11 @@ body {
         margin-bottom: 80px;
         margin-top: 80px;
     }
-    .right {        
+    .right {                       
         border-right: none;
     }    
-    .left {        
+    .left {
+        margin-left: 50px;        
         border-left: none;
     }
     .ring112,
@@ -968,6 +994,7 @@ body {
     .earrings325{
         grid-gap: 0 50px;
     }
+    
     .footer_text {
         font-size: 20px;
         line-height: 40px;        
@@ -1372,6 +1399,9 @@ body {
     .header_item {
         margin-right: 20px;
     }
+    .header_link{
+        font-size: 18px;
+    }
     .intro{
         min-height: 70vh;
     }
@@ -1531,6 +1561,18 @@ body {
     }    
     #bttn-2:checked~.slider_inner325 .slides325 {
         transform: translate(-300px);
+    }   
+
+    .contact_title,
+    .contact_info,
+    .contact_form-input {
+        margin-left: 80px;        
+    }      
+    .contact_form-title{       
+        margin-left: 95px;
+    }    
+    .contact_form-btn {
+        margin-left: 130px;        
     }
 
     .footer_text {  
@@ -1538,10 +1580,6 @@ body {
         line-height: 25px;         
         margin-left: 340px;        
     }
-
-    
-
-
 }
 
 
@@ -1624,6 +1662,18 @@ body {
         margin-top: -82px;
     }
 
+    .contact_title,
+    .contact_info,
+    .contact_form-input {
+        margin-left: 50px;        
+    }      
+    .contact_form-title{       
+        margin-left: 64px;
+    }    
+    .contact_form-btn {
+        margin-left: 98px;        
+    }
+
     .footer_text {  
         font-size: 16px;  
         line-height: 25px;         
@@ -1635,7 +1685,6 @@ body {
     .header_link {
         font-size: 16px;        
     }
-
     
     .intro_title{
         font-size: 24px;
@@ -1646,6 +1695,49 @@ body {
         font-size: 24px;
         padding-left: 146px;      
         transform: translateY(-328%);      
+    }
+
+    .contact_title {        
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        padding-right: 20px;             
+    }
+    
+    .contact_info {        
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 25px;            
+    }
+    
+    .contact_form-title{       
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 10px;       
+        margin-left: 75px;
+        padding-top: ;: 20px;
+    }
+    
+    .contact_form-input {        
+        margin-bottom: 15px;
+        height: 40px;        
+        padding: 0 21px;
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: 300;    
+    }
+    .contact_form-btn {   
+        font-weight: 700;     
+        font-size: 20px;
+        line-height: 24px;        
+        padding: 8px 35px;        
+        margin-left: 100px;         
+    }
+
+
+    .footer{
+       margin-bottom: 0 auto;
+
     }
     .footer_text {  
         font-size: 14px;  

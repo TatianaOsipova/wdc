@@ -229,8 +229,6 @@ body {
 
 /* jewelry info end */
 
-/* ring309 slider start */
-
 .ring309 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -947,15 +945,40 @@ body {
         margin-left: 80px;
         line-height: 30px;
     }
+    .jewelry {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
     .right {        
         border-right: none;
     }    
     .left {        
         border-left: none;
     }
+    .ring112,
+    .ring551,
+    .ring326,
+    .earrings323{        
+        grid-gap: 0 50px;
+        margin-bottom: 100px;
+    }
+    .ring309,
+    .ring643,
+    .ring611,
+    .earrings325{
+        grid-gap: 0 50px;
+    }
+    .footer_text {
+        font-size: 20px;
+        line-height: 40px;        
+        margin-left: 700px;        
+    }
 }
 
 @media (max-width:1000px){
+    .header_item {
+        margin-right: 50px;
+    }
     .intro_title{
         font-size: 40px;
         margin-left: 120px;
@@ -965,15 +988,198 @@ body {
         margin-left: 60px;
         line-height: 20px;
     }
-    
+    .jewelry {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }    
+    .jewelry_title {       
+        font-size: 20px;
+        line-height: 10px;    
+        margin-top: -30px;  
+        padding-bottom: 30px;
+        
+    }    
+    .jewelry_descr {
+        font-size: 20px;
+        line-height: 30px;        
+    }
 
 
+    .ring112 {
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+    }
+    .slider {        
+        width: 400px;        
+    }        
+    .slides img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #btn1:checked~.slider_inner .slides {
+        transform: translate(0);
+    }    
+    #btn2:checked~.slider_inner .slides {
+        transform: translate(-400px);
+    }    
+    #btn3:checked~.slider_inner .slides {
+        transform: translate(-800px);
+    }    
+
+
+    .ring309 {
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+    }
+    .slider309 {        
+        width: 400px;        
+    }
+    .slides309 img {
+        width: 400px;
+        height: 400px;       
+    }    
+    #btn-1:checked~.slider_inner309 .slides309 {
+        transform: translate(0);
+    }    
+    #btn-2:checked~.slider_inner309 .slides309 {
+        transform: translate(-400px);
+    }    
+    #btn-3:checked~.slider_inner309 .slides309 {
+        transform: translate(-800px);
+    }  
+
+
+    .ring551 {       
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+        padding-top: 50px;        
+    }    
+    .slider551 {        
+        width: 400px;        
+    }
+    .slides551 img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #btn_1:checked~.slider_inner551 .slides551 {
+        transform: translate(0);
+    }    
+    #btn_2:checked~.slider_inner551 .slides551 {
+        transform: translate(-400px);
+    }    
+    #btn_3:checked~.slider_inner551 .slides551 {
+        transform: translate(-800px);
+    }
+
+
+    .ring643 {        
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+    }    
+    .slider643 {        
+        width: 400px;       
+    }
+    .slides643 img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #button1:checked~.slider_inner643 .slides643 {
+        transform: translate(0);
+    }    
+    #button2:checked~.slider_inner643 .slides643 {
+        transform: translate(-400px);
+    }    
+    #button3:checked~.slider_inner643 .slides643 {
+        transform: translate(-800px);
+    }
+
+
+    .ring326 {       
+        grid-gap: 0 30px;       
+        padding-top: 50px;  
+        margin-bottom: 50px;      
+    }    
+    .slider326 {        
+        width: 400px;        
+    }
+    .slides326 img {
+        width: 400px;
+        height: 400px;
+    }    
+    #button_1:checked~.slider_inner326 .slides326 {
+        transform: translate(0);
+    }    
+    #button_2:checked~.slider_inner326 .slides326 {
+        transform: translate(-400px);
+    }    
+    #button_3:checked~.slider_inner326 .slides326 {
+        transform: translate(-800px);
+    }
+
+
+    .ring611 {
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+    }    
+    .slider611 {        
+        width: 400px;        
+    }
+    .slides611 img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #bttn1:checked~.slider_inner611 .slides611 {
+        transform: translate(0);
+    }    
+    #bttn2:checked~.slider_inner611 .slides611 {
+        transform: translate(-400px);
+    }    
+    #bttn3:checked~.slider_inner611 .slides611 {
+        transform: translate(-800px);
+    }
+
+
+    .earrings323 {        
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+        padding-top: 50px;        
+    }
+    .slider323 {       
+        width: 400px;        
+    }
+    .slides323 img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #bttn_1:checked~.slider_inner323 .slides323 {
+        transform: translate(0);
+    }    
+    #bttn_2:checked~.slider_inner323 .slides323 {
+        transform: translate(-400px);
+    }
+
+
+    .earrings325 {        
+        grid-gap: 0 30px;
+    }
+    .slider325 {        
+        width: 400px;        
+    }
+    .slides325 img {
+        width: 400px;
+        height: 400px;        
+    }    
+    #bttn-1:checked~.slider_inner325 .slides325 {
+        transform: translate(0);
+    }    
+    #bttn-2:checked~.slider_inner325 .slides325 {
+        transform: translate(-400px);
+    }
+
+    .footer_text {             
+        margin-left: 550px;        
+    }
 }
-
-
-
-
-
 
 @media (max-width:835px){
     .header_logo-link{
@@ -998,7 +1204,158 @@ body {
         margin-left: 0;  
         transform: translateY(-150%);      
     }
+    .right {
+        padding-left: 30px;
+        padding-top: 130px;        
+    }
+    
+    .left {
+        padding-left: 70px;
+        padding-top: 130px;        
+    }
+    
+    .slider {        
+        width: 350px;        
+    }        
+    .slides img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #btn1:checked~.slider_inner .slides {
+        transform: translate(0);
+    }    
+    #btn2:checked~.slider_inner .slides {
+        transform: translate(-350px);
+    }    
+    #btn3:checked~.slider_inner .slides {
+        transform: translate(-700px);
+    } 
 
+    
+    .slider309 {        
+        width: 350px;        
+    }
+    .slides309 img {
+        width: 350px;
+        height: 350px;       
+    }    
+    #btn-1:checked~.slider_inner309 .slides309 {
+        transform: translate(0);
+    }    
+    #btn-2:checked~.slider_inner309 .slides309 {
+        transform: translate(-350px);
+    }    
+    #btn-3:checked~.slider_inner309 .slides309 {
+        transform: translate(-700px);
+    }  
+
+    
+    .slider551 {        
+        width: 350px;        
+    }
+    .slides551 img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #btn_1:checked~.slider_inner551 .slides551 {
+        transform: translate(0);
+    }    
+    #btn_2:checked~.slider_inner551 .slides551 {
+        transform: translate(-350px);
+    }    
+    #btn_3:checked~.slider_inner551 .slides551 {
+        transform: translate(-700px);
+    }
+
+   
+    .slider643 {        
+        width: 350px;       
+    }
+    .slides643 img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #button1:checked~.slider_inner643 .slides643 {
+        transform: translate(0);
+    }    
+    #button2:checked~.slider_inner643 .slides643 {
+        transform: translate(-350px);
+    }    
+    #button3:checked~.slider_inner643 .slides643 {
+        transform: translate(-700px);
+    }
+
+    
+    .slider326 {        
+        width: 350px;        
+    }
+    .slides326 img {
+        width: 350px;
+        height: 350px;
+    }    
+    #button_1:checked~.slider_inner326 .slides326 {
+        transform: translate(0);
+    }    
+    #button_2:checked~.slider_inner326 .slides326 {
+        transform: translate(-350px);
+    }    
+    #button_3:checked~.slider_inner326 .slides326 {
+        transform: translate(-700px);
+    }
+
+     
+    .slider611 {        
+        width: 350px;        
+    }
+    .slides611 img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #bttn1:checked~.slider_inner611 .slides611 {
+        transform: translate(0);
+    }    
+    #bttn2:checked~.slider_inner611 .slides611 {
+        transform: translate(-350px);
+    }    
+    #bttn3:checked~.slider_inner611 .slides611 {
+        transform: translate(-700px);
+    }
+
+    
+    .slider323 {       
+        width: 350px;        
+    }
+    .slides323 img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #bttn_1:checked~.slider_inner323 .slides323 {
+        transform: translate(0);
+    }    
+    #bttn_2:checked~.slider_inner323 .slides323 {
+        transform: translate(-350px);
+    }
+
+   
+    .slider325 {        
+        width: 350px;        
+    }
+    .slides325 img {
+        width: 350px;
+        height: 350px;        
+    }    
+    #bttn-1:checked~.slider_inner325 .slides325 {
+        transform: translate(0);
+    }    
+    #bttn-2:checked~.slider_inner325 .slides325 {
+        transform: translate(-350px);
+    }
+
+    .footer_text {  
+        font-size: 18px;  
+        line-height: 25px;         
+        margin-left: 440px;        
+    }
 }
 
 @media (max-width:700px){
@@ -1024,13 +1381,173 @@ body {
         padding-left: 207px;      
         transform: translateY(-210%);      
     }
+    .jewelry_title {       
+        font-size: 18px;        
+        margin-top: -50px;  
+        padding-bottom: 20px;        
+    }    
+    .jewelry_descr {
+        font-size: 18px;
+        line-height: 25px;        
+    }
+
+
+    .slider {        
+        width: 300px;        
+    }        
+    .slides img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #btn1:checked~.slider_inner .slides {
+        transform: translate(0);
+    }    
+    #btn2:checked~.slider_inner .slides {
+        transform: translate(-300px);
+    }    
+    #btn3:checked~.slider_inner .slides {
+        transform: translate(-600px);
+    } 
+
+    
+    .slider309 {        
+        width: 300px;        
+    }
+    .slides309 img {
+        width: 300px;
+        height: 300px;       
+    }    
+    #btn-1:checked~.slider_inner309 .slides309 {
+        transform: translate(0);
+    }    
+    #btn-2:checked~.slider_inner309 .slides309 {
+        transform: translate(-300px);
+    }    
+    #btn-3:checked~.slider_inner309 .slides309 {
+        transform: translate(-600px);
+    }  
+
+    
+    .slider551 {        
+        width: 300px;        
+    }
+    .slides551 img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #btn_1:checked~.slider_inner551 .slides551 {
+        transform: translate(0);
+    }    
+    #btn_2:checked~.slider_inner551 .slides551 {
+        transform: translate(-300px);
+    }    
+    #btn_3:checked~.slider_inner551 .slides551 {
+        transform: translate(-600px);
+    }
+
+   
+    .slider643 {        
+        width: 300px;       
+    }
+    .slides643 img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #button1:checked~.slider_inner643 .slides643 {
+        transform: translate(0);
+    }    
+    #button2:checked~.slider_inner643 .slides643 {
+        transform: translate(-350px);
+    }    
+    #button3:checked~.slider_inner643 .slides643 {
+        transform: translate(-600px);
+    }
+
+    
+    .slider326 {        
+        width: 300px;        
+    }
+    .slides326 img {
+        width: 300px;
+        height: 300px;
+    }    
+    #button_1:checked~.slider_inner326 .slides326 {
+        transform: translate(0);
+    }    
+    #button_2:checked~.slider_inner326 .slides326 {
+        transform: translate(-300px);
+    }    
+    #button_3:checked~.slider_inner326 .slides326 {
+        transform: translate(-600px);
+    }
+
+     
+    .slider611 {        
+        width: 300px;        
+    }
+    .slides611 img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #bttn1:checked~.slider_inner611 .slides611 {
+        transform: translate(0);
+    }    
+    #bttn2:checked~.slider_inner611 .slides611 {
+        transform: translate(-300px);
+    }    
+    #bttn3:checked~.slider_inner611 .slides611 {
+        transform: translate(-600px);
+    }
+
+    
+    .slider323 {       
+        width: 300px;        
+    }
+    .slides323 img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #bttn_1:checked~.slider_inner323 .slides323 {
+        transform: translate(0);
+    }    
+    #bttn_2:checked~.slider_inner323 .slides323 {
+        transform: translate(-300px);
+    }
+
+   
+    .slider325 {        
+        width: 300px;        
+    }
+    .slides325 img {
+        width: 300px;
+        height: 300px;        
+    }    
+    #bttn-1:checked~.slider_inner325 .slides325 {
+        transform: translate(0);
+    }    
+    #bttn-2:checked~.slider_inner325 .slides325 {
+        transform: translate(-300px);
+    }
+
+    .footer_text {  
+        font-size: 16px;  
+        line-height: 25px;         
+        margin-left: 340px;        
+    }
 
     
 
 
 }
 
+
 @media (max-width:560px){
+    .header_list{
+        margin-right:30px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
     .intro{
         min-height: 50vh;
     }
@@ -1044,6 +1561,80 @@ body {
         padding-left: 165px;      
         transform: translateY(-300%);      
     }
+
+    .jewelry {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }    
+    .jewelry_title {   
+        padding-left: 76px;       
+    }    
+    .jewelry_descr {
+        padding-left: 76px;
+        font-size: 20px;
+        line-height: 30px;        
+    }
+    
+
+
+    .ring112,
+    .ring309,
+    .ring551,
+    .ring643,
+    .ring326,
+    .ring611,
+    .earrings323,
+    .earrings325 {        
+        grid-template-columns: repeat(1, 1fr);  
+        border-top: none;                        
+    }
+    .ring112{
+        border-bottom: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+    .ring309{             
+        margin-top: -82px;
+    }
+    .ring551{
+        border-bottom: 1px dotted silver;   
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+    .ring643{
+        margin-top: -82px;
+
+    }
+    .ring326{
+        border-bottom: 1px dotted silver;   
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+    .ring611{
+        margin-top: -82px;
+    }
+    .earrings323{
+        border-bottom: 1px dotted silver;   
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+    .earrings325{
+        margin-top: -82px;
+    }
+
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
     /* .header_btn {
         display: inline-block;
         width: 40px;

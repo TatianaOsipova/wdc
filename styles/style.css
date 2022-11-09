@@ -1522,13 +1522,16 @@ body {
         transform: translateY(-316%);      
     }
 
+    .contact {
+        min-height: 90vh;
+    }
     .contact_title,
     .contact_info,
     .contact_form-input {
         margin-left: 55px;
     }    
     .contact_title {   
-        padding-top: 200px;         
+        padding-top: 144px;         
         font-size: 18px;        
     }    
     .contact_info {        

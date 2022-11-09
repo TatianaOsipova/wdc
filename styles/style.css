@@ -778,7 +778,10 @@ body {
     font-weight: 100;
     margin-left: 830px;
     color: white;
+}
 
+.menu_btn{
+    display: none;
 }
 
 /* finish footer */
@@ -922,10 +925,6 @@ body {
 .contact_form-btn:active {
     transition: 0s;
     background-color: rgb(50, 118, 115);
-}
-
-.menu_btn{
-    display: none;
 }
 
 /* end main */

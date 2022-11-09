@@ -50,30 +50,30 @@ body {
     padding-bottom: 5px;
 }
 
-.header_list {
+.menu_list {
     display: flex;
     flex-wrap: wrap;
     transform: translateY(-160%);
 }
 
-.header_item {
+.menu_item {
     margin-right: 80px;
 }
 
-.header_item:last-child {
+.menu_item:last-child {
     margin-right: 0;
 }
 
-.header_link {
+.menu_link {
     font-size: 18px;
     line-height: 24px;
     color: white;
     text-decoration: none;
 }
 
-.header_link:hover,
-.header_link:focus,
-.header_link:active {
+.menu_link:hover,
+.menu_link:focus,
+.menu_link:active {
     opacity: 0.75;
     color: silver;
 }
@@ -802,7 +802,7 @@ body {
 
 .videos{
     width: 100%;
-    background-color: rgb(33, 33, 33);
+    background: linear-gradient(#4d4b4b, #09090e);
     padding-top: 50px;   
 }
 
@@ -814,8 +814,6 @@ body {
     max-width: 1160px;
     margin: 0 auto;
     position: relative;
-    /* border: 1px solid white;
-    border-radius: 5px; */
 }
 
 .video_item {   
@@ -926,40 +924,19 @@ body {
     background-color: rgb(50, 118, 115);
 }
 
+.menu_btn{
+    display: none;
+}
+
 /* end main */
 
 /* adaptive start */
-
-@media (max-width:1185px){
-    .header_logo-link{
-        margin-left: 80px;
-    }
-    .header_list{
-        margin-right: 80px;
-    }
-
-    .contact_title,
-    .contact_info,
-    .contact_form-input {
-        margin-left: 150px;        
-    }      
-    .contact_form-title{       
-        margin-left: 165px;
-    }    
-    .contact_form-btn {
-        margin-left: 193px;        
-    }
-    .footer_text {            
-        margin-left: 760px;        
-    }
-}
-
 
 @media (max-width:1160px){
     .header_logo-link{
         margin-left: 100px;
     }
-    .header_list{
+    .menu_list{
         margin-right: 100px;
     }
     .intro_title{
@@ -1003,7 +980,7 @@ body {
 }
 
 @media (max-width:1000px){
-    .header_item {
+    .menu_item {
         margin-right: 50px;
     }
     .intro_title{
@@ -1216,10 +1193,10 @@ body {
     .header_logo-link{
         margin-left: 80px;
     }
-    .header_list{
+    .menu_list{
         margin-right:80px;
     }
-    .header_item {
+    .menu_item {
         margin-right: 40px;
     }
     .intro{
@@ -1393,13 +1370,13 @@ body {
     .header_logo-link{
         margin-left: 40px;
     }
-    .header_list{
+    .menu_list{
         margin-right:40px;
     }
-    .header_item {
+    .menu_item {
         margin-right: 20px;
     }
-    .header_link{
+    .menu_link{
         font-size: 18px;
     }
     .intro{
@@ -1584,10 +1561,48 @@ body {
 
 
 @media (max-width:560px){
-    .header_list{
-        margin-right:30px;
-        font-size: 18px;
-        font-weight: 200;
+    .menu_btn{
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        position: absolute;
+        right: 50px;
+        top: 44px;
+    }
+    .menu_btn::after,
+    .menu_btn::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #fff;
+    }
+    .menu_btn::before{
+        top: 0;
+    }
+    .menu_btn::after{
+        bottom: 0;
+    }
+
+    .menu_btn span{
+        display: block;
+        height: 2px;
+        background-color: #fff;
+    }
+    .menu_list{
+        transform: translateY(120%);
+        display: block;
+        background-color: gray;
+        padding: 10px 0;
+    }
+    .menu_link{
+        padding: 10px;
+        /* display: block; */
+        text-align: center;
     }
     
     .intro{
@@ -1682,7 +1697,7 @@ body {
 }
 
 @media (max-width: 475px){
-    .header_link {
+    .menu_link {
         font-size: 16px;        
     }
     
@@ -1715,7 +1730,7 @@ body {
         font-size: 20px;
         line-height: 10px;       
         margin-left: 75px;
-        padding-top: ;: 20px;
+        padding-top: 20px;
     }
     
     .contact_form-input {        
@@ -1735,14 +1750,44 @@ body {
     }
 
 
-    .footer{
-       margin-bottom: 0 auto;
-
-    }
     .footer_text {  
         font-size: 14px;  
         line-height: 25px;         
         margin-left: 150px;        
+    }
+
+}
+
+
+@media (max-width: 390px) {
+    
+    .contact_title {   
+        padding-top: 150px;         
+        font-size: 18px;                  
+    }
+    
+    .contact_info {        
+        font-size: 16px;                 
+    }
+    
+    .contact_form-title{       
+        font-weight: 300;
+        font-size: 18px;           
+        margin-left: 75px;       
+    }
+    
+    .contact_form-input {        
+        font-size: 16px;          
+    }
+    .contact_form-btn {            
+        font-size: 18px;          
+        margin-left: 100px;         
+    }
+
+    .footer_text {  
+        font-size: 12px;  
+        line-height: 18px;         
+        margin-left: 110px;        
     }
 
 }
@@ -1814,7 +1859,7 @@ body {
 
 
 
-}
+
 
 
 

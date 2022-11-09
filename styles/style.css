@@ -162,10 +162,24 @@ body {
 #btn1:checked~.switch label[for="btn2"] {
     background-color: white;
 }
-
 #btn1:checked~.switch label[for="btn3"] {
     background-color: white;
 }
+
+#btn2:checked~.switch label[for="btn1"]{
+    background-color: white;
+} 
+#btn2:checked~.switch label[for="btn3"]{
+    background-color: white;
+} 
+
+#btn3:checked~.switch label[for="btn1"]{
+    background-color: white;
+} 
+#btn3:checked~.switch label[for="btn2"]{
+    background-color: white;
+} 
+
 
 .slider_inner {
     overflow: hidden;
@@ -270,10 +284,23 @@ body {
 #btn-1:checked~.switch309 label[for="btn-2"] {
     background-color: white;
 }
-
 #btn-1:checked~.switch309 label[for="btn-3"] {
     background-color: white;
 }
+
+#btn-2:checked~.switch309 label[for="btn-1"]{
+    background-color: white;
+} 
+#btn-2:checked~.switch309 label[for="btn-3"]{
+    background-color: white;
+} 
+
+#btn-3:checked~.switch309 label[for="btn-1"]{
+    background-color: white;
+} 
+#btn-3:checked~.switch309 label[for="btn-2"]{
+    background-color: white;
+} 
 
 .slider_inner309 {
     overflow: hidden;
@@ -350,10 +377,23 @@ body {
 #btn_1:checked~.switch551 label[for="btn_2"] {
     background-color: white;
 }
-
 #btn_1:checked~.switch551 label[for="btn_3"] {
     background-color: white;
 }
+
+#btn_2:checked~.switch551 label[for="btn_1"]{
+    background-color: white;
+} 
+#btn_2:checked~.switch551 label[for="btn_3"]{
+    background-color: white;
+} 
+
+#btn_3:checked~.switch551 label[for="btn_1"]{
+    background-color: white;
+} 
+#btn_3:checked~.switch551 label[for="btn_2"]{
+    background-color: white;
+} 
 
 .slider_inner551 {
     overflow: hidden;
@@ -428,10 +468,23 @@ body {
 #button1:checked~.switch643 label[for="button2"] {
     background-color: white;
 }
-
 #button1:checked~.switch643 label[for="button3"] {
     background-color: white;
 }
+
+#button2:checked~.switch643 label[for="button1"]{
+    background-color: white;
+} 
+#button2:checked~.switch643 label[for="button3"]{
+    background-color: white;
+} 
+
+#button3:checked~.switch643 label[for="button1"]{
+    background-color: white;
+} 
+#button3:checked~.switch643 label[for="button2"]{
+    background-color: white;
+} 
 
 .slider_inner643 {
     overflow: hidden;
@@ -508,8 +561,21 @@ body {
 #button_1:checked~.switch326 label[for="button_2"] {
     background-color: white;
 }
-
 #button_1:checked~.switch326 label[for="button_3"] {
+    background-color: white;
+}
+
+#button_2:checked~.switch326 label[for="button_1"]{
+    background-color: white;
+} 
+#button_2:checked~.switch326 label[for="button_3"]{
+    background-color: white;
+} 
+
+#button_3:checked~.switch326 label[for="button_1"]{
+    background-color: white;
+} 
+#button_3:checked~.switch326 label[for="button_2"]{
     background-color: white;
 }
 
@@ -586,10 +652,23 @@ body {
 #bttn1:checked~.switch611 label[for="bttn2"] {
     background-color: white;
 }
-
 #bttn1:checked~.switch611 label[for="bttn3"] {
     background-color: white;
 }
+
+#bttn2:checked~.switch611 label[for="bttn1"]{
+    background-color: white;
+} 
+#bttn2:checked~.switch611 label[for="bttn3"]{
+    background-color: white;
+} 
+
+#bttn3:checked~.switch611 label[for="bttn1"]{
+    background-color: white;
+} 
+#bttn3:checked~.switch611 label[for="bttn2"]{
+    background-color: white;
+} 
 
 .slider_inner611 {
     overflow: hidden;
@@ -666,6 +745,9 @@ body {
 #bttn_1:checked~.switch323 label[for="bttn_2"] {
     background-color: white;
 }
+#bttn_2:checked~.switch323 label[for="bttn_1"] {
+    background-color: white;
+}
 
 .slider_inner323 {
     overflow: hidden;
@@ -733,6 +815,9 @@ body {
 }
 
 #bttn-1:checked~.switch325 label[for="bttn-2"] {
+    background-color: white;
+}
+#bttn-2:checked~.switch325 label[for="bttn-1"] {
     background-color: white;
 }
 
@@ -1353,8 +1438,8 @@ body {
     .menu_list{
         transform: translateY(-280%);
         display: block;
-        background-color: rgb(103, 101, 101);
-        border: 2px dotted black;
+        background-color: rgb(41, 40, 40);
+        border: 2px dotted white;
         padding: 10px 0;
         transition: all 3s;
         border-radius: 15px;
@@ -1531,7 +1616,7 @@ body {
         margin-left: 55px;
     }    
     .contact_title {   
-        padding-top: 144px;         
+        padding-top: 160px;         
         font-size: 18px;        
     }    
     .contact_info {        

@@ -1594,13 +1594,16 @@ body {
     }
     .menu_list{
         transform: translateY(120%);
-        display: block;
+        /* display: block; */
         background-color: gray;
         padding: 10px 0;
     }
+    .menu_list.menu_list--active{
+        transform: translateY(0%);
+    }
     .menu_link{
         padding: 10px;
-        /* display: block; */
+        display: block;
         text-align: center;
     }
     

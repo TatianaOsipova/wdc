@@ -1512,6 +1512,11 @@ body {
 
 
 @media (max-width: 390px) {
+    .intro_title-continue{
+        padding-left: 100px;  
+        transform: translateY(-316%);      
+    }
+
     .contact_title,
     .contact_info,
     .contact_form-input {

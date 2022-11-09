@@ -1351,7 +1351,7 @@ body {
         background-color: #fff;
     }
     .menu_list{
-        transform: translateY(20%);
+        transform: translateY(-280%);
         display: block;
         background-color: rgb(103, 101, 101);
         border: 2px dotted black;
@@ -1360,14 +1360,19 @@ body {
         border-radius: 15px;
         position: absolute;
         left: 50px;
-        right: 0;        
+        right: 0;  
+        text-align: center;          
+    }
+    .menu_list:hover{
+        color: aqua;
+        cursor: pointer;
     }
     .menu_list.menu_list--active{
-        transform: translateY(-250%);
+        transform: translateY(20%);
     }    
     .menu_link{
         padding: 10px;
-        display: block;      
+        /* display: block;       */
         text-align: center;
     }
     .menu_item:last-child{
